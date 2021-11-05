@@ -1,10 +1,7 @@
 import React from "react";
-import GetFirstCity from "../api/GetFirstCity";
-import GetSecondCityData from "../api/GetSecondCityData";
-import GetThirdCityData from "../api/GetThirdCityData";
-import GetFourCityData from "../api/GetFourCityData";
 import GetFifthCityData from "../api/GetFifthCityData";
 import { useHistory } from "react-router";
+import '../App.css'
 
 const WeatherCard = () => {
   const history = useHistory();
@@ -13,21 +10,14 @@ const WeatherCard = () => {
   };
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>
+      <h1 >
         weather details page
         <button onClick={gottoWetherData}>searchCity</button>
       </h1>
-      <div style={{ height: "auto" }}>
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
-          <GetFirstCity />
-          <GetSecondCityData />
-          <GetThirdCityData />
-        </div>
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
-          <GetFourCityData />
-          <GetFifthCityData />
-        </div>
+      <div>
+        <GetFifthCityData/>
       </div>
+     
     </>
   );
 };

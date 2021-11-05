@@ -22,9 +22,9 @@ label {
 }
 .section_1 {
   margin-top: 20px;
-  max-height: 300px;
+  max-height: 500px;
   width: auto;
-  /* overflow: scroll; */
+  overflow: scroll;
 }
 td,
 th {
@@ -34,4 +34,11 @@ th {
   font-weight: bold;
   font-size: 20px;
   padding: 8px;
+}
+.heading_3{
+  text-align: center;
+}
+.tabledata{
+  border:  1px solid black;
+  
 }

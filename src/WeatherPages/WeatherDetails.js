@@ -26,8 +26,8 @@ const Demo = () => {
   return (
     <div className="main_data">
       <div className="section_1">
-        <h3 style={{ textAlign: "center" }}>5 Days Temperature: {mycity}</h3>
-        <table style={{ border: "1px solid black", borderRadius: "12px" }}>
+        <h3 className="heading_3">5 Days Temperature: {mycity}</h3>
+        <table  className="tabledata" >
           <tr>
             <th>Ground Level</th>
             <th>Sea Level</th>

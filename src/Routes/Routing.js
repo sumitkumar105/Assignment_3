@@ -4,6 +4,7 @@ import WeatherData from "../WeatherPages/WeatherData";
 import WeatherCard from "../WeatherPages/WeatherCard";
 
 import WeatherDetails from "../WeatherPages/WeatherDetails";
+// import CityData from "../api/CityData";
 
 const Routing = () => {
   return (
